@@ -19,7 +19,8 @@ TEST(UtilityTest, NextPowerOfTwo) {
   EXPECT_EQ(8, next_power_of_two(8));
 }
 
-int main(int argc, char** argv) {
+int main(int argc, char** argv) //Here argc and argv are command line arguments of int and string type respectively.
+{
   ::testing::InitGoogleTest(&argc, argv);
   return RUN_ALL_TESTS();
 }
